@@ -1,6 +1,6 @@
 spring:
   mqtt:
-    domain: 
+    domain: 127.0.0.1
     port: 1883
     clientId: SERVER00000001
     username: admin
