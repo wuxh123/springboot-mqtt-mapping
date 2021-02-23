@@ -1,0 +1,12 @@
+spring:
+  mqtt:
+    domain: 139.159.235.184
+    port: 1883
+    clientId: SERVER0000000000001
+    username: admin
+    password: 123456a?
+    connectionTimeout: 10
+    automaticReconnect: true
+    cleanSession: true
+    keepAliveInterval: 60
+
