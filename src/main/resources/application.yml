@@ -1,10 +1,10 @@
 spring:
   mqtt:
-    domain: 139.159.235.184
+    domain: 
     port: 1883
-    clientId: SERVER0000000000001
+    clientId: SERVER00000001
     username: admin
-    password: 123456a?
+    password: admin
     connectionTimeout: 10
     automaticReconnect: true
     cleanSession: true
