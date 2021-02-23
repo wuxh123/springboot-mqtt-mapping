@@ -2,7 +2,16 @@
 
 基于spring boot的mqtt例子，使用注解将不同的主题分派给不同的任务。支持+、#通配符。
 
-#### 1,yml配置
+#### 1,已经定义的注解
+````
+MqttMassageController
+MqttMassageMapping
+OnConnectComplete
+OnDisconnect
+RequestMassage
+RequestTopic
+````
+#### 2,yml配置
 ````
 spring:
   mqtt:
@@ -17,7 +26,7 @@ spring:
     keepAliveInterval: 60
 ````
 
-#### 2,使用方法，程序里已经包含了mptt
+#### 3,使用方法，程序里已经包含了mptt
 ````
     /**
      * @author wuxh
