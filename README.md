@@ -5,15 +5,16 @@
 #### 1,yml配置
 ````
 spring:
- mqtt:
-  host: tcp://localhost:1020
-  clientId: SERVER000000000000001
-  username: admin
-  password: admin
-  connectionTimeout: 10
-  automaticReconnect: true
-  cleanSession: true
-  keepAliveInterval: 60
+  mqtt:
+    domain: 127.0.0.1
+    port: 1883
+    clientId: SERVER00000001
+    username: admin
+    password: admin
+    connectionTimeout: 10
+    automaticReconnect: true
+    cleanSession: true
+    keepAliveInterval: 60
 ````
 
 #### 2,使用方法，程序里已经包含了mptt
